@@ -1,0 +1,27 @@
+[
+{
+	"id":101,
+	"name":"sam",
+	"salary":1000
+},
+{
+	"id":102,
+	"name":"ram",
+	"salary":2000
+},
+{
+	"id":103,
+	"name":"shyam",
+	"salary":3000
+},
+{
+	"id":104,
+	"name":"sameer",
+	"salary":4000
+},
+{
+	"id":105,
+	"name":"sameera",
+	"salary":5000
+}
+]
