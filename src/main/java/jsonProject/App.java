@@ -9,7 +9,7 @@ import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class app {
+public class App {
 
 	public static void main(String[] args) {
 
@@ -23,13 +23,13 @@ public class app {
 //			System.out.println(myemployee[1].getId());
 			int lengh = myemployee.length;
 			List <Object> employeeList = new ArrayList <>();
-			
+
 			for(int i = 0; i<lengh ; i++){
-				
-			employeeList.add(new Employee(myemployee[i].getId(),myemployee[i].getName(),myemployee[i].getSalary()));	
-				
-				
-				
+
+			employeeList.add(new Employee(myemployee[i].getId(),myemployee[i].getName(),myemployee[i].getSalary()));
+
+
+
 			}
 		} catch (JsonParseException e) {
 			e.printStackTrace();
